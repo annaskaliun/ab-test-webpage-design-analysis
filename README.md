@@ -128,7 +128,7 @@ After rollout, conversion and engagement metrics should continue to be monitored
 ## Dashboard
 
 View the interactive Tableau dashboard:  
-[Open Tableau Dashboard]([PASTE_YOUR_TABLEAU_LINK_HERE](https://public.tableau.com/app/profile/hanna.skaliun/viz/ab2_17784192086600/ABTestDashboardNewWebpageDesignPerformance))
+[Open Tableau Dashboard]([[https://public.tableau.com/app/profile/hanna.skaliun/viz/ab2_17784192086600/ABTestDashboardNewWebpageDesignPerformance](https://public.tableau.com/app/profile/hanna.skaliun/viz/ab2_17784192086600/ABTestDashboardNewWebpageDesignPerformance)](https://public.tableau.com/app/profile/hanna.skaliun/viz/ab2_17784192086600/ABTestDashboardNewWebpageDesignPerformance))
 
 ---
 
