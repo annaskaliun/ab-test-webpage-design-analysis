@@ -64,42 +64,58 @@ Significance level:
 alpha = 0.05
 
 ## Key Results
-Metric	Control	Treatment	Difference
-Users	5,013	4,987	-
-Conversions	534	715	+181
-Conversion Rate	10.65%	14.34%	+3.69 p.p.
-Average Session Duration	5.03 min	7.02 min	+1.99 min
-Average Pages Visited	2.98 pages	5.01 pages	+2.03 pages
+
+| Metric | Control | Treatment | Difference |
+|---|---:|---:|---:|
+| Users | 5,013 | 4,987 | - |
+| Conversions | 534 | 715 | +181 |
+| Conversion Rate | 10.65% | 14.34% | +3.69 p.p. |
+| Average Session Duration | 5.03 min | 7.02 min | +1.99 min |
+| Average Pages Visited | 2.98 pages | 5.01 pages | +2.03 pages |
 
 The treatment group outperformed the control group across all key metrics.
 
-Statistical Test Results
-Metric	Test	Statistic	p-value	Result
-Conversion Rate	Two-proportion z-test	-5.57	2.50e-08	Significant
-Average Session Duration	t-test	-44.37	0.00	Significant
-Average Pages Visited	t-test	-51.29	0.00	Significant
+---
+
+## Statistical Test Results
+
+| Metric | Test | Statistic | p-value | Result |
+|---|---|---:|---:|---|
+| Conversion Rate | Two-proportion z-test | -5.57 | 2.50e-08 | Significant |
+| Average Session Duration | t-test | -44.37 | 0.00 | Significant |
+| Average Pages Visited | t-test | -51.29 | 0.00 | Significant |
 
 All tested metrics showed statistically significant differences between the control and treatment groups.
 
-Age Group Analysis
-Age Group	Control CR	Treatment CR	Result
-<25	9.89%	14.69%	Treatment higher
-25–34	11.31%	13.32%	Treatment higher
-35–44	10.33%	15.48%	Treatment higher
-45+	10.75%	14.17%	Treatment higher
+---
 
-The new design improved conversion rate across all age groups.
-The strongest conversion performance was observed in the 35–44 age group.
+## Age Group Analysis
+
+| Age Group | Control CR | Treatment CR | Result |
+|---|---:|---:|---|
+| <25 | 9.89% | 14.69% | Treatment higher |
+| 25–34 | 11.31% | 13.32% | Treatment higher |
+| 35–44 | 10.33% | 15.48% | Treatment higher |
+| 45+ | 10.75% | 14.17% | Treatment higher |
+
+The new design improved conversion rate across all age groups.  
+The strongest conversion performance was observed in the **35–44** age group.
+
+---
 
 ## Business Insights
-Conversion rate increased from 10.65% to 14.34%
-Absolute conversion uplift was +3.69 percentage points
-Relative conversion uplift was approximately +34.6%
-Average session duration increased by +1.99 minutes
-Average pages visited increased by +2.03 pages
-Treatment performed better across all age groups
-Statistical testing confirmed that the differences were significant
-Recommendation
+
+- Conversion rate increased from **10.65%** to **14.34%**.
+- Absolute conversion uplift was **+3.69 percentage points**.
+- Relative conversion uplift was approximately **+34.6%**.
+- Average session duration increased by **+1.99 minutes**.
+- Average pages visited increased by **+2.03 pages**.
+- Treatment performed better across all age groups.
+- Statistical testing confirmed that the differences were significant.
+
+---
+
+## Recommendation
 
 The new webpage design should be rolled out to all users.
 
@@ -107,19 +123,17 @@ The treatment version delivered higher conversion, longer session duration, and 
 
 After rollout, conversion and engagement metrics should continue to be monitored, especially across age groups.
 
+---
+
 ## Dashboard
-(https://public.tableau.com/app/profile/hanna.skaliun/viz/ab2_17784192086600/ABTestDashboardNewWebpageDesignPerformance)
 
-The Tableau dashboard includes:
+View the interactive Tableau dashboard:  
+[Open Tableau Dashboard]([PASTE_YOUR_TABLEAU_LINK_HERE](https://public.tableau.com/app/profile/hanna.skaliun/viz/ab2_17784192086600/ABTestDashboardNewWebpageDesignPerformance))
 
-Control vs treatment KPI cards
-Conversion rate by variant
-Average session duration
-Average pages visited
-Statistical test results
-Performance by age group 
+---
 
 ## Tools Used
-Python (Pandas, NumPy, SciPy, Statsmodels)
-Tableau
-Jupyter Notebook
+
+- Python (Pandas, NumPy, SciPy, Statsmodels)
+- Tableau
+- Jupyter Notebook
